@@ -6,7 +6,16 @@
         public $genre;
     }
 
-    
+    $cloneWars = new Movie();
+
+    var_dump($cloneWars);
+
+    $cloneWars->title = 'Star Wars: The Clone Wars';
+    $cloneWars->director = 'Dave Filoni';
+    $cloneWars->releaseYear = '2008';
+    $cloneWars->genre = 'azione, fantascienza';
+
+    var_dump($cloneWars);
 ?>
 
 <!DOCTYPE html>
